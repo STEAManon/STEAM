@@ -19,8 +19,6 @@ def main():
     acic_full.loc[acic_full['z']==1, 'y'] = acic_full.loc[acic_full['z']==1, 'y1']
 
     acic = acic_full.drop(['y0', 'y1', 'mu0', 'mu1'], axis=1)
-    acic_train = acic.loc[[i for i in range(4000)]]
-    acic_test = acic.loc[[i+4000 for i in range(802)]]
     acic_encoded = encode(acic)
 
     print("Starting experiments...")
