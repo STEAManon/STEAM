@@ -8,3 +8,4 @@ catenets
 opacus
 diffprivlib
 scipy
+typing
