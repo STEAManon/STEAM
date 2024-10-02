@@ -1,0 +1,10 @@
+numpy
+pandas
+torch
+matplotlib
+synthcity[all]
+scikit-learn
+catenets
+opacus
+diffprivlib
+scipy
